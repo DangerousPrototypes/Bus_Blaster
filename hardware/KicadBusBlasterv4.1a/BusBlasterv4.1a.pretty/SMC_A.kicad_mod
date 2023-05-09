@@ -1,0 +1,50 @@
+(footprint "SMC_A" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (fp_text reference "REF**" (at -1.6 -0.975) (layer "F.SilkS")
+      (effects (font (size 0.93472 0.93472) (thickness 0.08128)) (justify left bottom))
+    (tstamp fe2db589-c27b-44ff-a122-ddf515394930)
+  )
+  (fp_text value "SMC_A" (at -1.6 2) (layer "F.Fab")
+      (effects (font (size 0.93472 0.93472) (thickness 0.08128)) (justify left bottom))
+    (tstamp 351414d0-b067-4e73-97f0-ad6b0b09cf17)
+  )
+  (fp_line (start -1.45 -0.75) (end 1.45 -0.75)
+    (stroke (width 0.1016) (type solid)) (layer "F.Fab") (tstamp 6b8aa501-952f-4420-993a-0c3900ca455d))
+  (fp_line (start -1.45 0.75) (end -1.45 -0.75)
+    (stroke (width 0.1016) (type solid)) (layer "F.Fab") (tstamp cb8a3b64-8aa0-4f2b-a408-0ee0b558d63b))
+  (fp_line (start 1.45 -0.75) (end 1.45 0.75)
+    (stroke (width 0.1016) (type solid)) (layer "F.Fab") (tstamp 6485b97d-a39a-4742-aa11-2d273e3eb7b2))
+  (fp_line (start 1.45 0.75) (end -1.45 0.75)
+    (stroke (width 0.1016) (type solid)) (layer "F.Fab") (tstamp 99fb0423-61cb-4731-bfb1-f32190de9722))
+  (fp_poly
+    (pts
+      (xy -1.6 0.6)
+      (xy -1.4 0.6)
+      (xy -1.4 -0.6)
+      (xy -1.6 -0.6)
+    )
+
+    (stroke (width 0) (type default)) (fill solid) (layer "F.Fab") (tstamp 428cae7d-9e1a-41f1-a441-b9daa354e29f))
+  (fp_poly
+    (pts
+      (xy -1.45 0.75)
+      (xy -0.8 0.75)
+      (xy -0.8 -0.75)
+      (xy -1.45 -0.75)
+    )
+
+    (stroke (width 0) (type default)) (fill solid) (layer "F.Fab") (tstamp 304e34f7-865a-4ce3-9aa9-6b704cbba4d3))
+  (fp_poly
+    (pts
+      (xy 1.6 -0.6)
+      (xy 1.4 -0.6)
+      (xy 1.4 0.6)
+      (xy 1.6 0.6)
+    )
+
+    (stroke (width 0) (type default)) (fill solid) (layer "F.Fab") (tstamp 4f00386e-d694-4362-a80a-cf7b31f15f81))
+  (pad "+" smd rect (at -1.5 0) (size 1.6 1.4) (layers "F.Cu" "F.Paste" "F.Mask")
+    (solder_mask_margin 0.0508) (thermal_bridge_angle 45) (tstamp eada3125-3079-41fb-8941-51c17ae2f3d8))
+  (pad "-" smd rect (at 1.5 0 180) (size 1.6 1.4) (layers "F.Cu" "F.Paste" "F.Mask")
+    (solder_mask_margin 0.0508) (thermal_bridge_angle 45) (tstamp a7860376-c9b6-474c-a02b-587b761b1bc4))
+)

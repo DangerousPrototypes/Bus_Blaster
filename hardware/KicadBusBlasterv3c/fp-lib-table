@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "BusBlaster-v3c")(type "KiCad")(uri "$(KIPRJMOD)/BusBlaster-v3c.pretty")(options "")(descr ""))
+)

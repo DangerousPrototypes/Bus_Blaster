@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 0)
+  (lib (name "BusBlasterv4.1a-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/BusBlasterv4.1a-eagle-import.kicad_sym")(options "")(descr ""))
+)
