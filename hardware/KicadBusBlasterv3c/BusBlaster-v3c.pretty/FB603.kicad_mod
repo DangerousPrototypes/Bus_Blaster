@@ -1,0 +1,47 @@
+(footprint "FB603" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (descr "<b>RESISTOR</b><p>\nchip")
+  (fp_text reference "REF**" (at -0.889 -0.889) (layer "F.SilkS")
+      (effects (font (size 0.89408 0.89408) (thickness 0.12192)) (justify left bottom))
+    (tstamp 247fd5fd-34fd-4581-8d26-305e10ec7f49)
+  )
+  (fp_text value "FB603" (at -0.889 2.032) (layer "F.Fab")
+      (effects (font (size 0.89408 0.89408) (thickness 0.12192)) (justify left bottom))
+    (tstamp 2a6dc25f-b596-4720-b570-039ee0b053e7)
+  )
+  (fp_poly
+    (pts
+      (xy -0.1999 0.4001)
+      (xy 0.1999 0.4001)
+      (xy 0.1999 -0.4001)
+      (xy -0.1999 -0.4001)
+    )
+
+    (stroke (width 0) (type default)) (fill solid) (layer "F.Adhes") (tstamp f0dafcba-ad96-432b-9a4d-536d9ed86a0c))
+  (fp_line (start -0.432 0.356) (end 0.432 0.356)
+    (stroke (width 0.1524) (type solid)) (layer "F.Fab") (tstamp 1cfec401-2b62-43c3-a8e1-8b3660dcdfc2))
+  (fp_line (start 0.432 -0.356) (end -0.432 -0.356)
+    (stroke (width 0.1524) (type solid)) (layer "F.Fab") (tstamp cfc37126-51fd-4bbd-a741-b35bd77755d9))
+  (fp_poly
+    (pts
+      (xy -0.8382 0.4318)
+      (xy -0.4318 0.4318)
+      (xy -0.4318 -0.4318)
+      (xy -0.8382 -0.4318)
+    )
+
+    (stroke (width 0) (type default)) (fill solid) (layer "F.Fab") (tstamp a29cad89-2008-4023-a98a-378832a902fd))
+  (fp_poly
+    (pts
+      (xy 0.4318 0.4318)
+      (xy 0.8382 0.4318)
+      (xy 0.8382 -0.4318)
+      (xy 0.4318 -0.4318)
+    )
+
+    (stroke (width 0) (type default)) (fill solid) (layer "F.Fab") (tstamp 2dc86572-9da6-465c-b0a0-04732ca2151f))
+  (pad "1" smd rect (at -0.85 0) (size 1 1.1) (layers "F.Cu" "F.Paste" "F.Mask")
+    (solder_mask_margin 0.0508) (thermal_bridge_angle 45) (tstamp f12b992e-f7fd-4470-9d40-c9ff7d5e0588))
+  (pad "2" smd rect (at 0.85 0) (size 1 1.1) (layers "F.Cu" "F.Paste" "F.Mask")
+    (solder_mask_margin 0.0508) (thermal_bridge_angle 45) (tstamp 6d977d2d-af85-4e85-820c-6fec529e06b0))
+)
